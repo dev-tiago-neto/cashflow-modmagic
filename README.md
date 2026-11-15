@@ -6,10 +6,6 @@ PDV simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem ba
 
 HTML, CSS, JavaScript sem frameworks, IndexedDB, Web App Manifest e Service Worker. GitHub Pages hospeda todos os arquivos estáticos sem processo de build.
 
-## Atualização da versão anterior
-
-Se você já instalou a versão **Caixa Místico 3D**, publique estes novos arquivos **no mesmo repositório e endereço**, substituindo os anteriores. O banco local mantém sua identificação antiga para não apagar os registros existentes. Se optar por um repositório ou domínio novo, os dados do navegador não migram automaticamente: exporte o JSON na versão anterior e importe na nova.
-
 ## Acesso no iPhone e Windows
 
 - A mesma URL funciona no iPhone e nos navegadores do Windows. Em telas amplas, o app mostra uma navegação lateral e tabelas/cartões mais espaçosos.
