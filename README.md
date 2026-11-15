@@ -1,6 +1,6 @@
-# Modulus Magic — Fluxo de Caixa · PWA offline
+# Modulus Magic — PDV para Fluxo de Caixa · PWA offline
 
-PDV simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem backend e sem dependências de npm.
+PDV/POS (Ponto de venda) simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem backend e sem dependências de npm.
 
 ## Tecnologia
 
