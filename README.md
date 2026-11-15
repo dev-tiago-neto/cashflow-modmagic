@@ -2,12 +2,13 @@
 
 PDV simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem backend e sem dependências de npm.
 
-## Identidade visual (v5)
-- **Preto** `#08090C` como cor primária e fundo do aplicativo.
-- **Azul oficial** `#2F00FF` como cor secundária, em ações e navegação ativa.
-- **Laranja oficial** `#FF4B14` em detalhes, destaques e informações financeiras.
-- O visual é o mesmo no iPhone e no Windows. Os arquivos `styles.css`, `index.html`, `manifest.webmanifest` e os ícones foram atualizados.
-- O cache do PWA foi incrementado para `modulus-magic-v5`, evitando manter o tema anterior após atualizar a publicação.
+## Tecnologia
+
+HTML, CSS, JavaScript sem frameworks, IndexedDB, Web App Manifest e Service Worker. GitHub Pages hospeda todos os arquivos estáticos sem processo de build.
+
+## Atualização da versão anterior
+
+Se você já instalou a versão **Caixa Místico 3D**, publique estes novos arquivos **no mesmo repositório e endereço**, substituindo os anteriores. O banco local mantém sua identificação antiga para não apagar os registros existentes. Se optar por um repositório ou domínio novo, os dados do navegador não migram automaticamente: exporte o JSON na versão anterior e importe na nova.
 
 ## Acesso no iPhone e Windows
 
@@ -40,20 +41,3 @@ Na tela inicial, os três atalhos principais são **Vendas**, **Gastos** e **Est
 - O resultado estimado não é contabilidade formal: não considera impostos, custos fixos não lançados, devoluções e outras despesas não registradas.
 - O CSV usa `;` como delimitador, com codificação UTF-8 BOM, para melhor compatibilidade com Excel em português.
 
-## Desenvolvimento local
-
-Execute um servidor estático no diretório do projeto, por exemplo:
-
-```bash
-python -m http.server 8000
-```
-
-Abra `http://localhost:8000`. Para o funcionamento PWA no iPhone, use o GitHub Pages (HTTPS), pois service workers exigem contexto seguro; apenas abrir `index.html` como arquivo não é suficiente.
-
-## Tecnologia
-
-HTML, CSS, JavaScript sem frameworks, IndexedDB, Web App Manifest e Service Worker. GitHub Pages hospeda todos os arquivos estáticos sem processo de build.
-
-## Atualização da versão anterior
-
-Se você já instalou a versão **Caixa Místico 3D**, publique estes novos arquivos **no mesmo repositório e endereço**, substituindo os anteriores. O banco local mantém sua identificação antiga para não apagar os registros existentes. Se optar por um repositório ou domínio novo, os dados do navegador não migram automaticamente: exporte o JSON na versão anterior e importe na nova.
