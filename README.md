@@ -1,25 +1,13 @@
 # Modulus Magic — Fluxo de Caixa · PWA offline
 
-## Identidade visual (v5)
+PDV simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem backend e sem dependências de npm.
 
+## Identidade visual (v5)
 - **Preto** `#08090C` como cor primária e fundo do aplicativo.
 - **Azul oficial** `#2F00FF` como cor secundária, em ações e navegação ativa.
 - **Laranja oficial** `#FF4B14` em detalhes, destaques e informações financeiras.
 - O visual é o mesmo no iPhone e no Windows. Os arquivos `styles.css`, `index.html`, `manifest.webmanifest` e os ícones foram atualizados.
 - O cache do PWA foi incrementado para `modulus-magic-v5`, evitando manter o tema anterior após atualizar a publicação.
-
-
-PDV simples para eventos de impressão 3D. Sem assinatura, sem App Store, sem backend e sem dependências de npm.
-
-## Publicação gratuita no GitHub Pages
-
-1. Crie uma conta em https://github.com (se ainda não tiver).
-2. Crie um repositório **público** chamado `modulus-magic` (o nome pode ser outro, inclusive se você já tiver criado o repositório anterior).
-3. Extraia este ZIP. Envie **todos os arquivos e pastas internos**, inclusive `.nojekyll`, `icons`, `index.html`, `app.js`, `auth.js`, `sw.js`, `manifest.webmanifest` e `styles.css` para a **raiz** do repositório. Não envie apenas o arquivo ZIP.
-4. Abra **Settings → Pages → Build and deployment → Source: Deploy from a branch → Branch: main → /(root) → Save**.
-5. Após a publicação, acesse `https://SEU-USUARIO.github.io/modulus-magic/` (troque o usuário e, se necessário, o nome do repositório). A publicação pode demorar alguns minutos.
-6. No iPhone, abra o endereço no Safari → Compartilhar → Adicionar à Tela de Início → Abrir como App → Adicionar.
-7. Abra o aplicativo **uma vez com internet** e depois faça um teste em modo avião antes de depender dele no evento.
 
 ## Acesso no iPhone e Windows
 
